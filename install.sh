@@ -13,8 +13,13 @@ EXTRA_DIR="$HOME/.extra"
 # Bunch of symlinks
 # This is for the future... Setup zsh and profiles etc
 
+# Change default shell to zsh
+chsh -s /usr/local/bin/zsh
+
+# Install Oh-My-Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # ln -sfv "$DOTFILES_DIR/runcom/.bash_profile" ~
-# ln -sfv "$DOTFILES_DIR/runcom/.inputrc" ~
 # ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 # ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 # ln -sfv "$DOTFILES_DIR/git/.gitsettings" ~
