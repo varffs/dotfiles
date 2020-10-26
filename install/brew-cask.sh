@@ -17,6 +17,7 @@ apps=(
     slack
     codekit
     coda
+    transmission
 )
 
 brew cask install "${apps[@]}"
