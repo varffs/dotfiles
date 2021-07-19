@@ -18,6 +18,8 @@ apps=(
     tree
     wget
     yarn
+    composer
+    wp-cli
 )
 
 brew install "${apps[@]}"
