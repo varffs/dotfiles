@@ -2,14 +2,18 @@
 
 apps=(
     alfred
+    app-cleaner
+    brave-browser
+    calibre
+    cyberduck
     dropbox
     firefox
-    gitup
     github
     google-chrome
     iterm2
     keka
     macdown
+    onyx
     opera
     vlc
     rectangle
@@ -18,6 +22,9 @@ apps=(
     codekit
     coda
     transmission
+    signal
+    skype
+    tor-browser
 )
 
 brew cask install "${apps[@]}"
